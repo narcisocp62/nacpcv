@@ -459,9 +459,9 @@ $(document).ready(function() {
     });
 
     function submitForm(){
-        var name = $("#nameContact").val(),
-            email = $("#emailContact").val(),
-            message = $("#messageContact").val();
+        var name = $("#name").val(),
+            email = $("#email").val(),
+            message = $("#message").val();
 			
         var url = "assets/php/form-contact.php";
 		
