@@ -463,7 +463,7 @@ $(document).ready(function() {
             email = $("#email").val(),
             message = $("#message").val();
 			
-        var url = "../php/form-contact.php";
+        var url = "../assets/php/form-contact.php";
 		
         $.ajax({
             type: "POST",
