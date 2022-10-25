@@ -2,3 +2,18 @@
     margin-top: 15px;
     text-align: center;
   }
+
+.lista li {
+    list-style: square;
+    margin-left: -10px !important;
+  }
+
+  .updated_date {
+    background: #222;
+    color: #FFDB6E;
+    padding: 5px 10px;
+    border-radius: 0 0 8px 8px;
+    margin: -30px 10px -10px;
+    font-size: 0.75rem;
+    text-align: center;
+  }
