@@ -1,4 +1,4 @@
-\documentclass[a4paper,14pt]{article}
+\documentclass[a4paper,12pt]{article}
 % xelatex
 %A Few Useful Packages
 \usepackage{marvosym}
@@ -16,6 +16,14 @@
 \usepackage{ragged2e}
 \usepackage[inline]{enumitem}
 \usepackage{lipsum}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=5mm,
+ right=5mm,
+ top=15mm,
+ }
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -68,59 +76,56 @@ ItalicFont = EBGaramond-Italic.ttf
 \section{Personal Information}
 \begin{tabular}{rl}
     \textsc{Mobile:}    & +598 99 270 789 \\
-    \textsc{Skype:}     & live.alxsenen \\
-    \textsc{email:}     & \href{mailto:alxsenen@gmail.com}{alxsenen@gmail.com} \\
-    \textsc{Linkedin:}  & \href{https://www.linkedin.com/in/alxsenen/}{https://www.linkedin.com/in/alxsenen/}
+    \textsc{email:}     & \href{mailto:alex@devsysop.com}{alex@devsysop.com}, \href{mailto:alxsenen@gmail.com}{alxsenen@gmail.com} \\
+    \textsc{Linkedin:}  & \href{https://www.linkedin.com/in/alxsenen/}{https://www.linkedin.com/in/alxsenen/} \\
 \end{tabular}
 
 \section{Summary}
 \justify
-I am a pasionate tech sysadmin with 10 years of experience, managing systems and services on \textbf{Linux} and \textbf{Windows}, doing \textbf{fastly troubleshooting}, writing steps plan to follow before deploy a solution. I am \textbf{empathic}, \textbf{proactive}, \textbf{fast learning}, \textbf{serious} and \textbf{responsible}.
-
-Eighth month ago, i decided to change my role as Sysadmin to DevOps Engineer, working with many teams, improving my skills, and making best solution for clients, implementing best practices and solutions on cloud providers, also have create automation methods minimazing delays.
-
-No matter what, i will always do my best for the teams and clients.
+I am a pasionate person for tech with 10 years of experience, managing systems and services on Linux and Windows, also doing fastly troubleshooting, writing steps plan. I am empathic, proactive, fast learning, serious and responsible.
+I been working with many teams, improving my skills, implementing best practices and solutions on cloud providers, and making best solution for client. No matter what, i will always do my best for the teams and clients.
 
 %Section: Work Experience at the top
 \section{Work experience}
-\begin{tabular}{r|p{12cm}}
+\begin{tabular}{p{2.9cm}| p{16cm}}
 \emph{02/2022–Present} & Devops Engineer, Soho, Uruguay \\
-\textsc{}&\footnotesize{Working with clusters on \textbf{EKS} .}\\
+\textsc{}&\footnotesize{Working with clusters on \textbf{EKS}.}\\
 \textsc{}&\footnotesize{CI/CD automation and integrations with pipelines using tools like \textbf{Azure Devops}.}\\
 \textsc{}&\footnotesize{Deploy infrastructure using \textbf{Terraform} on \textbf{AWS}.}\\
 
+\multicolumn{2}{c}{} \\  
 \emph{12/2021–02/2022} & Devops Engineer, Inswitch, Uruguay \\
 \textsc{}&\footnotesize{Working with clusters on \textbf{K8s}, \textbf{OKD}, \textbf{EKS} and \textbf{VMware}.}\\
 \textsc{}&\footnotesize{CI/CD integrations with pipelines using tools like \textbf{Jenkins} and \textbf{Gitlab}.}\\
 \textsc{}&\footnotesize{Automation deployments to minimize delays for implementations.}\\
 
-\emph{11/2019–12/2021} & SysOps \& Cloud Services, 
-SONDA, Uruguay \\
-\textsc{}&\footnotesize{Deploying servers on \textbf{AWS}, \textbf{GCP}, \textbf{Azure}, \textbf{VMware}, using many systems like \textbf{CentOS}, \textbf{RedHat}, \textbf{openSUSE}, \textbf{Debian}, \textbf{Ubuntu}.}\\&
-\footnotesize{Starting with basic \textbf{Docker} and \textbf{Kubernetes}, deploying services for internal infrastructure and external clients.}\\&
-\footnotesize{Deploying and controlling \textbf{systems integration} with \textbf{Jenkins} and \textbf{Ansible} using our own \textbf{GitLab} internal \textbf{repository}.}\\
+\multicolumn{2}{c}{} \\  
+\emph{11/2019–12/2021} & SysOps \& Cloud Services, SONDA, Uruguay \\
+\textsc{}&\footnotesize{Deploying servers on \textbf{AWS}, \textbf{GCP}, \textbf{Azure}, \textbf{VMware}, using many systems like \textbf{CentOS}, \textbf{RedHat}, \textbf{openSUSE}, \textbf{Debian}, \textbf{Ubuntu}.}\\
+\textsc{}&\footnotesize{Starting with basic \textbf{Docker} and \textbf{Kubernetes}, deploying services for internal infrastructure and external clients.}\\
+\textsc{}&\footnotesize{Deploying and controlling \textbf{systems integration} with \textbf{Jenkins} and \textbf{Ansible} using our own \textbf{GitLab} internal \textbf{repository}.}\\
 
- \multicolumn{2}{c}{} \\  
- \emph{05/2018–09/2019} & Sysadmin, IT Support Engineer, Webmaster, ETECSA, Cuba \\
- \emph{11/2019–12/2021} & SysOps \& Cloud Services, 
-SONDA, Uruguay \\
-\textsc{}&\footnotesize{Deploying servers on \textbf{AWS}, \textbf{GCP}, \textbf{Azure}, \textbf{VMware}, using many systems like \textbf{CentOS}, \textbf{RedHat}, \textbf{openSUSE}, \textbf{Debian}, \textbf{Ubuntu}.}\\&
-\footnotesize{Starting with basic \textbf{Docker} and \textbf{Kubernetes}, deploying services for internal infrastructure and external clients.}\\&
-\footnotesize{Deploying and controlling \textbf{systems integration} with \textbf{Jenkins} and \textbf{Ansible} using our own \textbf{GitLab} internal \textbf{repository}.}\\
- \emph{06/2014–05/2018} & Sysadmin, IT Support Engineer, Webmaster, DATYS, Cuba \\
- \emph{09/2013–09/2014} & Sysadmin, Webmaster, IT Security Support, UCI, Cuba \\
-\emph{09/2010–09/2013} & IT Technical Security, Webmaster,  UCI, Cuba \\
+\multicolumn{2}{c}{} \\  
+\emph{09/2018–09/2019} & Sysadmin, IT Support Engineer, Webmaster, Etecsa, Cuba\\
+\textsc{}&\footnotesize{Working with Linux and Windows enviroments as server or desktop client.}\\
+\textsc{}&\footnotesize{Doing support to many web-platforms and servers used by diferent teams.}\\
+\textsc{}&\footnotesize{Automation of installations servers using Ansible's playbooks.}\\
+\textsc{}&\footnotesize{Managing domain servers with Zentyal and applying network policies.}\\
+\textsc{}&\footnotesize{Implementing firewalls, dns servers, and others services like ftp, webservers, mail servers (Zimbra).}\\
+
+\multicolumn{2}{c}{} \\  
+\emph{06/2014–09/2018} & Sysadmin, IT Support Engineer, Webmaster, DATYS, Cuba \\
+\textsc{}&\footnotesize{Mantaining linux and windows servers on (Windows Server 2003-2011), (Debian, Ubuntu).}\\
+\textsc{}&\footnotesize{Design, deploy of internal and external websites use it by team using drupal framework.}\\
+\textsc{}&\footnotesize{Working side by side with research teams looking for best solutions and how to improve systems for tests runner.}\\
+
+\multicolumn{2}{c}{} \\  
+\emph{09/2010–06/2014} & Sysadmin, IT Technical Security, Webmaster, UCI, Cuba \\
+\textsc{}&\footnotesize{Webmaster of Information Security website, helping and teaching users how to confront cyber attacks avoiding pishing, malwares, etc.}\\
+\textsc{}&\footnotesize{Running servers for scanning lan networks, searching for virus, malwares, keyloggers, storing all data in a phosocal server on datacenter.}\\
+\textsc{}&\footnotesize{Mantaining linux and windows servers on (Windows Server 2003), (CentOS, Redhat).}\\
 \end{tabular}
 
-%Section: Education
-\section{Education}
-\begin{tabular}{r|p{11cm}}
-	\emph{2017 - 2019}  &Telecommunications and Electronics Engineering, ISPJAE - Incomplete \\
-	\emph{2017 - 2018}  & Linux Services Administrator, DATYS - Complete \\
-	\emph{08/2011}  & Linux System Administrator II, UCI - Complete \\
-	\emph{07/2010}  & Linux System Administrator I, UCI - Complete \\
-	\emph{2004 - 2008}  & Bachelor of Electronic (B.Elect.), PITOH - Complete \\
-\end{tabular}
 
 \section{Skills}
 \justify
@@ -134,6 +139,16 @@ SONDA, Uruguay \\
 	\item DevOps Jr. Docker, Kubernetes, Pipelines \hspace{0.15cm}
 	\item Troubleshooting
 \end{enumerate*}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{p{3cm}| p{15cm}}
+	\emph{2017 - 2019}  &Telecommunications and Electronics Engineering, ISPJAE - Incompleted \\
+	\emph{2017 - 2018}  & Linux Services Administrator, DATYS - Completed \\
+	\emph{08/2011}  & Linux System Administrator II, UCI - Completed \\
+	\emph{07/2010}  & Linux System Administrator I, UCI - Completed \\
+	\emph{2004 - 2008}  & Bachelor of Electronic (B.Elect.), PITOH - Completed \\
+\end{tabular}
 
 \section{Languages}
 \justify

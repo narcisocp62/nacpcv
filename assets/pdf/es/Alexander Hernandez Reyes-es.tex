@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,12pt]{article}
 % xelatex
 %A Few Useful Packages
 \usepackage{marvosym}
@@ -15,6 +15,14 @@
 \usepackage{float}
 \usepackage{ragged2e}
 \usepackage[inline]{enumitem}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=5mm,
+ right=5mm,
+ top=15mm,
+ }
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -26,7 +34,7 @@
 %\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
 %%% modified for Karol Kozioł for ShareLaTeX use
 \setmainfont[
-Path = ../../fonts/,
+Path = ../fonts/,
 BoldFont = EBGaramond-Bold.ttf,
 ItalicFont = EBGaramond-Italic.ttf
 ]
@@ -61,47 +69,62 @@ ItalicFont = EBGaramond-Italic.ttf
 
 {\huge Alexander Hern\'andez Reyes}
 \hfill
-\smash{\includegraphics[width=2cm]{../../photos/Alexandercv.png}}\\
+\smash{\includegraphics[width=2cm]{../photos/alex.jpg}}\\
 %--------------------SECTIONS-----------------------------------
 %Section: Personal Data
 \section{Informaci\'on personal}
 \begin{tabular}{rl}
     \textsc{Tel\'efono:}     & +598 99 270 789 \\
     %\textsc{Tel\'efono:}     & +53 55 598 315 \\
-    \textsc{Skype:}     & live.alxsenen \\
-    \textsc{email:}     & \href{mailto:alxsenen@gmail.com}{alxsenen@gmail.com} \\
-    \textsc{Linkedin:}     & \href{https://www.linkedin.com/in/alxsenen/}{https://www.linkedin.com/in/alxsenen/}
+    \textsc{email:}     & \href{mailto:alex@devsysop.com}{alex@devsysop.com}, \href{mailto:alxsenen@gmail.com}{alxsenen@gmail.com} \\
+    \textsc{Linkedin:}     & \href{https://www.linkedin.com/in/alxsenen/}{https://www.linkedin.com/in/alxsenen/} \\
+	
 \end{tabular}
-
 \section{Resumen}
 \justify
-10 a\~{n}os de experiencia, administrando sistemas y servicios, usando sistemas operativos como  \textbf{Linux} y \textbf{Windows}, \textbf{resolviendo problemas r\'apidamente}, escribiendo los pasos a seguir antes de implementar una soluci\'on. Soy \textbf{emp\'atico}, \textbf{proactivo}, de \textbf{aprendizaje r\'apido}, \textbf{serio} y \textbf{responsable}. Amplia \textbf{vocaci\'on de servicio}, dispuesto a \textbf{ayudar al equipo} y \textbf{dar lo mejor} de mi.
+Soy una persona apasionada por la tecnología con 10 años de experiencia, administrando sistemas y servicios en Linux y Windows, también solucionando problemas rápidamente y escribiendo un plan de pasos. Soy empático, proactivo, de rápido aprendizaje, serio y responsable.
+He estado trabajando con muchos equipos, mejorando mis habilidades, implementando mejores prácticas y soluciones. Siempre daré lo mejor de mí para los equipos y los clientes.
 
 %Section: Work Experience at the top
-\section{Experiencia laboral}
-\begin{tabular}{r|p{11cm}}
-\emph{02/2022 – Presente } & Ingeniero Devops, Soho Uruguay \\
-	
-\textsc{}&\footnotesize{Configuraci\'on y manejo de clusters \textbf{EKS}.}\\&
-\footnotesize{\textbf{CI/CD} mediante pipelines usando \textbf{Azure Devops}.}\\&
-\footnotesize{Despliegue y configuraci\'on de infraestructura sobre \textbf{AWS} mediante \textbf{Terraform}.}\\
-	
-\multicolumn{2}{c}{} \\	
-\emph{12/2021 – 02/2022 } & Ingeniero Devops, Inswitch, Uruguay \\
-\emph{11/2019 – 11/2021} & Administrador de sistemas - SONDA, Uruguay \\
-\emph{05/2018 – 09/2019} & Administrador de sistemas - ETECSA, Cuba \\
-\emph{06/2014 – 05/2018} & Administrador de sistemas - DATYS, Cuba \\
-\emph{09/2013 – 09/2014} & Administrador de sistemas - UCI, Cuba \\
-\emph{09/2010 – 09/2013} & T\'ecnico en seguridad inform\'atica - UCI \\
-\end{tabular}
+\section{Work experience}
+\justify
+\begin{tabular}{p{2.9cm}| p{16cm}}
+\emph{02/2022–Present} & Ingeniero Devops, Soho, Uruguay \\
+\textsc{}&\footnotesize{Configuración y manejo de clusters \textbf{EKS}.}\\
+\textsc{}&\footnotesize{CI/CD mediante pipelines usando \textbf{Azure Devops}.}\\
+\textsc{}&\footnotesize{Despliegue y configuración de infraestructura sobre \textbf{AWS} mediante \textbf{Terraform}.}\\
 
-\section{Education}
-\begin{tabular}{r|p{11cm}}
-	\emph{2017 - 2019}  &Ingenier\'ia en Telecomunicaciones y Electrónica, ISPJAE - Incomplete \\
-	\emph{2017 - 2018}  & Administraci\'on avanzada de servicios sobre Linux, DATYS - Complete \\
-	\emph{08/2011}  & Administraci\'on de servidores Linux II, UCI - Complete \\
-	\emph{07/2010}  & Administraci\'on de servidores Linux I, UCI - Complete \\
-	\emph{2004 - 2008}  & Bachiller T\'ecnico en Electr\'onica (B.Elect.), IPTOH - Complete \\
+\multicolumn{2}{c}{} \\  
+\emph{12/2021–02/2022} & Ingeniero Devops, Inswitch, Uruguay \\
+\textsc{}&\footnotesize{Trabajar con clústeres en \textbf{K8s}, \textbf{OKD}, \textbf{EKS} and \textbf{VMware}.}\\
+\textsc{}&\footnotesize{Integraciones de CI/CD con canalizaciones utilizando herramientas como \textbf{Jenkins} y \textbf{Gitlab}.}\\
+\textsc{}&\footnotesize{Implementaciones de automatización para minimizar los retrasos en las implementaciones.}\\
+
+\multicolumn{2}{c}{} \\  
+\emph{11/2019–02/2021} & Administrador de Sistemas y Servicios Cloud, Sonda, Uruguay \\
+\textsc{}&\footnotesize{Instalaciones sobre \textbf{AWS}, \textbf{GCP}, \textbf{Azure}, \textbf{VMware}, usando sistemas como \textbf{CentOS}, \textbf{RedHat}, \textbf{openSUSE}, \textbf{Debian}, \textbf{Ubuntu}.}\\
+\textsc{}&\footnotesize{Trabajo con \textbf{Docker} y \textbf{Kubernetes}, desplegando servicios para infraestructura interna y clientes externos.}\\
+\textsc{}&\footnotesize{Implementación y control de la integración de sistemas con \textbf{Jenkins} y \textbf{Ansible} utilizando nuestro propio repositorio interno de \textbf{GitLab}.}\\
+
+\multicolumn{2}{c}{} \\  
+\emph{09/2018–09/2019} & Administrador de Sistemas sobre Linux, Etecsa, Cuba\\
+\textsc{}&\footnotesize{Trabajo con ambientes sobre Linux Windows, en servidores o clientes.s.}\\
+\textsc{}&\footnotesize{Soporte a diversas plataformas desplegadas usadas diariamente.}\\
+\textsc{}&\footnotesize{Instalación de servidores y servicios mediante playbooks de Ansible.}\\
+\textsc{}&\footnotesize{Manejo de controladores de dominio y aplicación de diversas politicas en la red.}\\
+\textsc{}&\footnotesize{Implementaci\'on de firewalls, proxys, dns, correo y otros (Nextcloud, Owncloud).}\\
+
+\multicolumn{2}{c}{} \\
+\emph{06/2014–09/2018} & Administrador de Sistemas sobre Linux y Windows, DATYS, Cuba\\
+\textsc{}&\footnotesize{Mantenimiento e implementación en diferentes ambientes como: (Windows Server 2003-2011), (Debian, Ubuntu).}\\
+\textsc{}&\footnotesize{Diseño, desarrollo y despliegue de sitios webs internos y externos mediante el uso de Drupal.}\\
+\textsc{}&\footnotesize{Trabajo en conjunto con el equipo de investigadores para lograr desplegar las herramientas y mejores soluciones para los diferentes proyectos.}\\
+
+\multicolumn{2}{c}{} \\
+\emph{09/2010–06/2014} & Administrador de Sistemas, Técnico de Seguridad Informática, Webmaster, UCI, Cuba\\
+\textsc{}&\footnotesize{Diseño e implementación del sitio web de Seguridad Informática haciendo conciencoia en los usuarios, etc.}\\
+\textsc{}&\footnotesize{Instalación de servidores para poder realizar escaneos de puertos, ficheros maliciosos, capturadores de contraseñas y virus mediante laboratorios habilitados con herramientas como Kaspersky.}\\
+\textsc{}&\footnotesize{Mantenimiento, configuración e instalación de servidores sobre Windows o Linux, ej: (Windows Server 2003), (CentOS, Redhat).}\\
 \end{tabular}
 
 \section{Skills}
@@ -117,17 +140,26 @@ ItalicFont = EBGaramond-Italic.ttf
 	\item Troubleshooting
 \end{enumerate*}
 
+\section{Education}
+\begin{tabular}{p{3cm}| p{15cm}}
+	\emph{2017 - 2019}  &Ingenier\'ia en Telecomunicaciones y Electrónica, ISPJAE - Incompleto \\
+	\emph{2017 - 2018}  & Administraci\'on avanzada de servicios sobre Linux, DATYS - Terminado \\
+	\emph{08/2011}  & Administraci\'on de servidores Linux II, UCI - Terminado \\
+	\emph{07/2010}  & Administraci\'on de servidores Linux I, UCI - Terminado \\
+	\emph{2004 - 2008}  & Bachiller T\'ecnico en Electr\'onica (B.Elect.), IPTOH - Terminado \\
+\end{tabular}
+
 \section{Idiomas}
 \justify
 - English - Intermedio\\
 - Spanish - Nativo
 
-\section{Proyectos}
-\justify
+% \section{Proyectos}
+% \justify
 
-1. \href{http://ecolehavane.org}{Sitio oficial de la Alianza Francesa en la Habana} \\
-2. \href{http://www.ciarp.org/xx}{Sitio oficial del 20 Congreso de Reconocimiento de Patrones (CIARP 2015))}\\
-3. \href{http://www.ciarp.org/xxi}{Sitio oficial del 21 Congreso de Reconocimiento de Patrones (CIARP 2016)} \\
-4. \href{http://acrp.cenatav.co.cu}{Asociaci\'on Cubana de Reconocimiento de Patrones (ACRP)} \\
+% 1. \href{http://ecolehavane.org}{Sitio oficial de la Alianza Francesa en la Habana} \\
+% 2. \href{http://www.ciarp.org/xx}{Sitio oficial del 20 Congreso de Reconocimiento de Patrones (CIARP 2015))}\\
+% 3. \href{http://www.ciarp.org/xxi}{Sitio oficial del 21 Congreso de Reconocimiento de Patrones (CIARP 2016)} \\
+% 4. \href{http://acrp.cenatav.co.cu}{Asociaci\'on Cubana de Reconocimiento de Patrones (ACRP)} \\
 
 \end{document}
