@@ -6,4 +6,5 @@
 *.gz
 *.tex
 *.xdv
+.DS_Store
 !*.pdf
