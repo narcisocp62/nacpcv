@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1667069251 "Alexander_Hernandez_Reyes-es.xdv" "Alexander_Hernandez_Reyes-es.pdf" "Alexander_Hernandez_Reyes-es" 1667069251
-  "Alexander_Hernandez_Reyes-es.xdv" 1667069250 41328 244e2931c5da3e2ba875e602439d15cb "xelatex"
+["xdvipdfmx"] 1668135977 "Alexander_Hernandez_Reyes-es.xdv" "Alexander_Hernandez_Reyes-es.pdf" "Alexander_Hernandez_Reyes-es" 1668135977
+  "Alexander_Hernandez_Reyes-es.xdv" 1668135976 41384 9d7d42537575ec96cb682d69a75ee340 "xelatex"
   (generated)
   "Alexander_Hernandez_Reyes-es.pdf"
-["xelatex"] 1667069250 "/Users/xander/Documents/alxsenen.github.io/assets/pdf/es/Alexander_Hernandez_Reyes-es.tex" "Alexander_Hernandez_Reyes-es.xdv" "Alexander_Hernandez_Reyes-es" 1667069251
+["xelatex"] 1668135976 "/Users/xander/Documents/alxsenen.github.io/assets/pdf/es/Alexander_Hernandez_Reyes-es.tex" "Alexander_Hernandez_Reyes-es.xdv" "Alexander_Hernandez_Reyes-es" 1668135977
   "../photos/alex.jpg" 1638914558 108424 3d2606d109eadf66350bd386c1787db1 ""
-  "/Users/xander/Documents/alxsenen.github.io/assets/pdf/es/Alexander_Hernandez_Reyes-es.tex" 1667069249 7907 6cdb72f492300f9a82f5caab6df68813 ""
+  "/Users/xander/Documents/alxsenen.github.io/assets/pdf/es/Alexander_Hernandez_Reyes-es.tex" 1668135975 7917 e979e986e47b1dab791180e35fc202ff ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -95,9 +95,9 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1649347804 5419901 af370ef08ebde96a848da907cde1bccd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Alexander_Hernandez_Reyes-es.aux" 1667069250 1300 c4e786177f512f5b09d14ac6a8a6d7a2 "xelatex"
-  "Alexander_Hernandez_Reyes-es.out" 1667069250 587 5572388022d4d12ce44268a773a73851 "xelatex"
-  "Alexander_Hernandez_Reyes-es.tex" 1667069249 7907 6cdb72f492300f9a82f5caab6df68813 ""
+  "Alexander_Hernandez_Reyes-es.aux" 1668135976 1300 c4e786177f512f5b09d14ac6a8a6d7a2 "xelatex"
+  "Alexander_Hernandez_Reyes-es.out" 1668135976 587 5572388022d4d12ce44268a773a73851 "xelatex"
+  "Alexander_Hernandez_Reyes-es.tex" 1668135975 7917 e979e986e47b1dab791180e35fc202ff ""
   (generated)
   "Alexander_Hernandez_Reyes-es.aux"
   "Alexander_Hernandez_Reyes-es.log"
