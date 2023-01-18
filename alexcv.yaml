@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alexcv
+  labels:
+    app: alexcv
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alexcv
+  template:
+    metadata:
+      labels:
+        app: alexcv
+    spec:
+      containers:
+      - name: alexcv
+        image: alexdevsysop/alexcv:v6
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
