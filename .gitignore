@@ -8,3 +8,4 @@
 *.xdv
 .DS_Store
 !*.pdf
+*/py

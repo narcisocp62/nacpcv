@@ -59,6 +59,11 @@
 		font-size: 0.75rem;
 		text-align: center;
 		}
+
+		.stack {
+  		border-bottom: 1px dotted !important;
+  		color: #999;
+		}
 	</style>
 	
 </head>
@@ -71,14 +76,14 @@
 				    <div class="sidebar box-outer sticky-column">
 						<!-- My photo -->
 						<div class="sidebar__base-info">
-							<div class="updated_date">&Uacute;ltima actualizaci&oacute;n: Jue, 01-12-2022</div>
+							
 					    	<figure class="avatar-box">
                                 <img src="../assets/images/alex.jpg" alt="Alexander Hernandez Reyes">
 						    </figure>
 
 						    <div class="text-xl-center">
 						        <h3 class="title title--h3 sidebar__name">Alexander<br> Hern&aacute;ndez Reyes</h3>
-							    <div class="badge">Ingeniero Devops & Admin. Sistemas</div>
+							    <div class="badge">DevOps Engineer</div>
 						    </div>
 
 							<button class="btn btn--small btn--icon-right sidebar__btn js-btn-toggle"><span>M&aacute;s informaci&oacute;n</span><i class="feathericon-chevron-down"></i></button>
@@ -139,7 +144,7 @@
 						    <ul class="nav">
                                 <li class="nav__item"><a href="https://alex.devsysop.com/es/index.html">Sobre mi</a></li>
 								<li class="nav__item"><a class="active" href="https://alex.devsysop.com/es/resumen.html">Resumen</a></li>
-								<li class="nav__item"><a href="https://alex.devsysop.com/assets/pdf/es/Alexander_Hernandez_Reyes-es.pdf" target="_blank">CV {PDF}</a></li>
+								<li class="nav__item"><a href="https://alex.devsysop.com/assets/pdf/es/Alexander_Hernandez_Resumen-es.pdf" target="_blank">CV {PDF}</a></li>
 								<li class="nav__item"><a href="https://alex.devsysop.com/en/index.html">Ingl&eacute;s</a></li>
                             </ul>
 						</div>
@@ -153,70 +158,79 @@
 						<div class="timeline">
 							<!-- Item -->
 							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Ingeniero Devops, Soho, Uruguay</h5>
-								<span class="timeline__period">02/2022 — 12/2022</span>
-								<p class="timeline__description">Configuración y manejo de clusters EKS.<br>
-									CI/CD mediante pipelines usando Azure Devops y Bitbucket.<br>
-									Despliegue y configuración de infraestructura sobre AWS mediante Terraform.</p>
-							</article>
-                                        
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Ingeniero Devops, Inswitch, Uruguay</h5>
-								<span class="timeline__period">12/2021 — 02/2022</span>
-								<p class="timeline__description">Trabajar con clústeres en K8s, OKD, EKS y VMware.<br>
-									Integraciones de CI/CD con canalizaciones utilizando herramientas como Jenkins y Gitlab.<br>
-									Implementaciones de automatización para minimizar los retrasos en las implementaciones.</p>
-							</article>
-                                        
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administrador de Sistemas y Servicios Cloud, Sonda, Uruguay</h5>
-								<span class="timeline__period">11/2019 — 12/2021</span>
-								<p class="timeline__description">Implementación de servidores en AWS, GCP, Azure, VMware, utilizando muchos sistemas como CentOS, RedHat, openSUSE, Debian, Ubuntu. <br>
-									Comenzando con Docker y Kubernetes básicos, implementando servicios para infraestructura interna y clientes externos.<br>
-									Implementación y control de la integración de sistemas con Jenkins y Ansible utilizando nuestro propio repositorio interno de GitLab.</p>
-							</article>
-
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administrador de Sistemas sobre Linux, Etecsa, Cuba</h5>
-								<span class="timeline__period">05/2018 — 09/2019</span>
+								<h5 class="title title--h4 timeline__title">Devops Engineer. Soho, Uruguay</h5>
+								<span class="timeline__period">Feb 2022 – Dec 2022</span>
+								<br>
+								<span class="timeline__period">Stack Tecnológico:</span>
+								<span class="stack"> AWS: EKS, ECR, Lamba, S3, Route 53, API Gateway, DocumentDB, RDS, Elastic Beanstalk, CloudWatch, Cognito, 
+									IAM, Secrets Manager, EC2 | Azure Devops: Repos, Pipelines | Others: Linux, Nginx, Apache2, Wordpress, NodeJS,
+									Docker, MariaDB, PostgreSQL, Bash, Troubleshooting</span>
 								<p class="timeline__description">
-									<ul class="lista">
-										<li>Trabajo con ambientes sobre Linux Windows, tanto como servidores o configuraci&oacute;n de clientes de escritorio para los usuarios.</li>
-										<li>Soporte a diversas plataformas desplegadas usadas diariamente.</li>
-										<li>Instalaci&oacute;n de servidores y servicios mediante playbooks de Ansible.</li>
-										<li>Manejo de controladores de dominio y aplicaci&oacute;n de diversas politicas en la red.</li>
-										<li>Implementaci&oacute;n de corta fuegos, proxys, servidores de nombres(dns), servidores de correo(Zimbra), asi como tambien servidores de archivo(Nextcloud, Owncloud).</li>
-									</ul>
+									Como miembro del equipo de DevOps, pude construir la infraestructura para el proyecto usando Terraform en AWS, trabajé con los desarrolladores para crear los pipelines encargados de desplegar las aplicaciones. Tuve la oportunidad de usar Bitbucket Pipelines para otro proyecto que necesitaba hacer cambios en servidores Linux o Elas- tic Beanstalk.
+								</p>	
+							</article>
+                                        
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">Devops Engineer, Inswitch, Uruguay</h5>
+								<span class="timeline__period">Dec 2021 – Feb 2022</span>
+								<br>
+								<span class="timeline__period">Stack Tecnológico:</span>
+								<span class="stack"> AWS: EKS, S3 | Azure Devops: Repos, Pipelines | Others: Linux, Nginx, Apache2, Jenkins, SonarQube, Jaeguer, 
+									NodeJS, Groovy, Maven, Go, Ansible, Terraform, VMware, IBM Cloud, Openshift, Kubernetes, Helm, Helmfile, Graphana, RabbitMQ, ELK, 
+									Nexus, JFrog Artifactory, Maven, Gitlab, Jira, Confluence, Bitbucket, OracleDB, MariaDB, PostgreSQL, Bash, Erlang, Quarkus, Troubleshooting</span>
+								<p class="timeline__description">
+									Como Ingeniero Devops tuve que trabajar con clústeres sobre K8s y OKD. Creé o repliqué pipelines de integraciones utilizando herramientas como Jenkins y Gitlab.
+								</p>
+							</article>
+                                        
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">SysOps Administrator, SONDA, Uruguay</h5>
+								<span class="timeline__period">Nov 2019 – Dec 2021</span>
+								<br>
+								<span class="timeline__period">Stack Tecnológico:</span>
+								<span class="stack"> AWS: EC2 | Azure: Virtual Machines | Others: Linux, Nginx, Apache2, JBoss, Wildfly, Apache Tomcat, Jenkins, 
+									Ansible, VMware, Oracle VM Server, OracleDB, Kubernetes, Graphana, Zabbix, CentOS, WAFs, Windows Server, Cisco Tools, Office 365, 
+									Docker, ELK, Gitlab, Jira, Confluence, Bitbucket, MariaDB, Bash, Troubleshooting</span>
+								<p class="timeline__description">
+									Como SysOps, tuve que crear VMs/Contenedores sobre diversas Clouds, asi como mantener los servicios instalados sobre linux, además promover las prácticas Devops orientadas a la infra.
 								</p>
 							</article>
 
 							<!-- Item -->
 							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administrador de Sistemas sobre Linux y Windows, DATYS, Cuba</h5>
-								<span class="timeline__period">06/2014 — 05/2018</span>
+								<h5 class="title title--h4 timeline__title">Linux System Administrator, ETECSA, Cuba</h5>
+								<span class="timeline__period">Sep 2018 – Sep 2019</span>
+								<br>
+								<span class="timeline__period">Technology Stack:</span>
+								<span class="stack"> Linux, Nginx, Apache2, Ansible, Proxmox, Zentyal, MariaDB, Ubuntu, Debian, Bash, Troubleshooting</span>
 								<p class="timeline__description">
-									<ul class="lista">
-										<li>Mantenimiento e implementaci&oacute;n de servidores en diferentes ambientes como: (Windows Server 2003-2011), (Debian, Ubuntu).</li>
-										<li>Instalaci&oacute;n y configuraci&oacute; de servicios internos como dns, correo, servidor de ficheros, servidor de aplicacion web, dhcp, antivirus mediante herramientas como nginx, apache, bind9, Microsoft Exchange y otros.</li>
-										<li>Dise&ntilde;o, desarrollo y despliegue de sitios webs internos y externos mediante el uso de Drupal.</li>
-										<li>Trabajo en conjunto con el equipo de investigadores para lograr desplegar las herramientas y mejores soluciones para los diferentes proyectos.</li>
-									</ul>
+									Como SysAdmin Linux tuve que mantener los contenedores virtualizados con Promox en línea, crear scripts bash para automatizar las instalaciones de los servidores, administrar el servidor dns y el directorio activo usando el servidor zentyal.
 								</p>
 							</article>
 
 							<!-- Item -->
 							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administrador de Sistemas, T&eacute;cnico de Seguridad Inform&aacute;tica, Webmaster, UCI, Cuba</h5>
-								<span class="timeline__period">09/2010 — 09/2014</span>
+								<h5 class="title title--h4 timeline__title">Linux System Administrator, DATYS, Cuba</h5>
+								<span class="timeline__period">Jun 2014 – Sep 2018</span>
+								<br>
+								<span class="timeline__period">Stack Tecnológico:</span>
+								<span class="stack"> Linux, Nginx, Apache2, Proxmox, Windows Server, Nexus, MariaDB, Debian, Bash, Gitlab, Drupal, Joomla, Troubleshooting</span>
 								<p class="timeline__description">
-									<ul class="lista">
-										<li>Dise&ntilde;o e implementaci&oacute;n del sitio web de Seguridad Inform&aacute;tica para brindar informaci&oacute;n a los usuarios sobre ciberataques, virus malwares, ingenieria inversa en correos maliciosos, etc.</li>
-										<li>Instalaci&oacute;n de servidores para poder realizar escaneos de puertos, ficheros maliciosos, capturadores de contrase&ntilde;as y virus mediante laboratorios habilitados con herramientas como Kaspersky.  </li>
-										<li>Mantenimiento, configuraci&oacute;n e instalaci&oacute;n de servidores sobre Windows o Linux, ej: (Windows Server 2003), (CentOS, Redhat).</li>
-									</ul>
+									En esta posición tuve trabajar con servidores en linux virtualizados con Proxmox, configurar servicios como DHCP, nginx, PostgreSQL, asi como desarrollar sitios webs para la infra interna usando Drupal, Joomla entre otros.
+								</p>
+							</article>
+
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">IT Technical Security, UCI, Cuba</h5>
+								<span class="timeline__period">Sep 2010 – Jun 2014</span>
+								<br>
+								<span class="timeline__period">Technology Stack:</span>
+								<span class="stack"> Linux, Nginx, Apache2, Windows Server, MySQL, Debian, Drupal, Kaspersky Lab, Troubleshooting</span>
+								<p class="timeline__description">
+									Como Técnico de Seguridad de TI tuve que ayudar y enseñar a los usuarios a enfrentar ataques cibernéticos evitando pishing, malwares, correr servidores para escanear redes lan, buscar virus, malwares, keyloggers, y también mantener servidores linux y windows (Windows Server 2003), (CentOS, Redhat).
 								</p>
 							</article>
 						</div>
@@ -224,31 +238,11 @@
 						<!-- Experience -->
 						<h2 class="title title--h2"><span class="box box--s2 icon-box"><i class="font-icon feathericon-book-open"></i></span>Educaci&oacute;n</h2>
 						<div class="timeline">
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Ingeniería en Telecomunicaciones y Electrónica</h5>
-								<span class="timeline__period">2017 — 2019 | Incompleto</span>
-								<p class="timeline__description"></p>
-							</article>
-                                        
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administración avanzada de servicios Linux</h5>
-								<span class="timeline__period">2017 — 2018 | Completado</span>
-								<p class="timeline__description"></p>
-							</article>
-                                        
-							<!-- Item -->
-							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administración de servidores Linux II</h5>
-								<span class="timeline__period">08/2011 | Completado</span>
-								<p class="timeline__description"></p>
-							</article>
 
 							<!-- Item -->
 							<article class="timeline__item">
-								<h5 class="title title--h4 timeline__title">Administración de servidores Linux I</h5>
-								<span class="timeline__period">07/2010 | Completado</span>
+								<h5 class="title title--h4 timeline__title">Ingeniería en Telecomunicaciones y Electrónica</h5>
+								<span class="timeline__period">2016 — 2019 | Incompleto</span>
 								<p class="timeline__description"></p>
 							</article>
 							
@@ -258,6 +252,36 @@
 								<span class="timeline__period">2004 — 2008 Completado</span>
 								<p class="timeline__description"></p>
 							</article>
+
+                            <h4 class="title title--h4"><span class="box box--s2 icon-box"><i class="font-icon feathericon-book-open"></i></span>Cursos</h4>      
+							
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">WebSphere Application Server V9 Administrator</h5>
+								<span class="timeline__period">06/2020 — 07/2020 | TechData, Uruguay</span>
+								<p class="timeline__description"></p>
+							</article>
+
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">Linux Services Administrator</h5>
+								<span class="timeline__period">2017 — 2018 | DATYS, Cuba</span>
+								<p class="timeline__description"></p>
+							</article>
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">Linux System Administrator II</h5>
+								<span class="timeline__period">06/2011 ‐ 08/2011 | UCI, Cuba</span>
+								<p class="timeline__description"></p>
+							</article>
+
+							<!-- Item -->
+							<article class="timeline__item">
+								<h5 class="title title--h4 timeline__title">Linux System Administrator I</h5>
+								<span class="timeline__period">06/2010 ‐ 08/2010 | UCI, Cuba</span>
+								<p class="timeline__description"></p>
+							</article>
+							
 						</div>
 						
 					</div>
