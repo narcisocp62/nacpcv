@@ -21,6 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag alexcv:v28
+      run: docker build . --file Dockerfile --tag alexdevsysop/alexcv:v28
+      
     - name: Docker Push
       run: docker push alexdevsysop/alexcv:v28
