@@ -22,6 +22,8 @@ jobs:
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD 
     #- name: Build the Docker image
     #  run: docker build . --file Dockerfile --tag alexcv:v28
-    - name: Run helm 
+    - name: Adding alexcv repo
       run: |
-        helm repo list
+        helm repo add alexcv https://charts.devsysop.com/
+    - name: Getting repo list
+      run: helm repo list
