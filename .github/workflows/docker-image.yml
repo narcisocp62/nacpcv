@@ -23,7 +23,11 @@ jobs:
     - name: Build the Docker image
       env:
         GITHUB_REF_NAME: $GITHUB_REF_NAME
-      run: docker build . --file Dockerfile --tag alexcv:$GITHUB_REF_NAME
+      run: docker build . --file Dockerfile --tag alexdevsysop/alexcv:$GITHUB_REF_NAME
+    - name: Push the Docker image
+      env:
+        GITHUB_REF_NAME: $GITHUB_REF_NAME
+      run: docker push alexdevsysop/alexcv:$GITHUB_REF_NAME
     - name: Configure Kubernetes Context
       env:
         KUBECONF: ${{secrets.KUBECONF}}
