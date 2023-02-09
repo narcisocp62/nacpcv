@@ -24,4 +24,4 @@ jobs:
     #  run: docker build . --file Dockerfile --tag alexcv:v28
     - name: Run helm 
       run: |
-      helm repo list
+        helm repo list
