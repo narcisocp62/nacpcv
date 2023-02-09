@@ -118,7 +118,7 @@
 \def \mainfontbold {inter-semibold}
 % \def \mainbolditalicfont {}
 % \def \mainitalicfont {}
-\def \mainfontsize {9.5}
+\def \mainfontsize {9.0}
 \def \mainsansfont {inter-light}
 
 %Main Subheading Font Definitions
@@ -186,7 +186,7 @@ Last Updated on \today
 
 % Section separators
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{5pt}{5pt}
+\titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \newcommand{\sectionsep}{\vspace{5pt}}
 
@@ -196,7 +196,7 @@ Last Updated on \today
 
 % Subheadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = \pathsubheadingfont ]{\subheadingfont}\fontsize{\subheadingsize}{14pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{title}\fontspec[Path = \pathsubheadingfont ]{\subheadingfont}\fontsize{\subheadingsize}{14pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
 %Subheadings on the right
 \newcommand{\runsubsection}[1]{
