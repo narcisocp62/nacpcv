@@ -25,7 +25,7 @@ jobs:
     - name: Configuren Kubernetes Context
       env:
         KUBECONF: ${{secrets.KUBECONF}}
-      run: echo "$KUBECONF" > kube.conf; kubectl config --kubeconfig="kube.conf"; rm -rf kube.conf; kubectl get nodes
+      run: echo "$KUBECONF" > ~/.kube/config; kubectl get nodes
     - name: Adding alexcv repo
       run: |
         helm repo add alexcv https://charts.devsysop.com/
