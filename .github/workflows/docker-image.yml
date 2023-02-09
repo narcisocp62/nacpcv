@@ -23,7 +23,9 @@ jobs:
     #- name: Build the Docker image
     #  run: docker build . --file Dockerfile --tag alexcv:v28
     - name: Configuren Kubernetes Context
-      run: kubectl
+      env:
+        KUBECONF: ${{secrets.KUBECONF}}
+      run: kubectl config --kubeconfig="$KUBECONF";kubectl get nodes
     - name: Adding alexcv repo
       run: |
         helm repo add alexcv https://charts.devsysop.com/
