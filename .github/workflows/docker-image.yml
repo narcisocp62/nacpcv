@@ -21,9 +21,9 @@ jobs:
       run: |
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: |
-        echo "GIT_TAG=`echo $(git describe --tags --abbrev=0)`" >> $GITHUB_ENV; echo $GITHUB_ENV
-        docker build . --file Dockerfile --tag alexcv:$GITHUB_ENV
+      env:
+        GITHUB_REF_NAME: $GITHUB_REF_NAME
+      run: docker build . --file Dockerfile --tag alexcv:$GITHUB_REF_NAME
     - name: Configuren Kubernetes Context
       env:
         KUBECONF: ${{secrets.KUBECONF}}
