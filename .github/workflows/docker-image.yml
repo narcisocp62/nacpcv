@@ -2,7 +2,6 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main ]
     tags:
       - 'v*'
 
@@ -37,4 +36,6 @@ jobs:
         helm repo add alexcv https://charts.devsysop.com/
         helm repo update
     - name: Deploying alexcv helmchart
-      run: helm upgrade --install alexcv alexcv/alexcv
+      env:
+        GITHUB_REF_NAME: $GITHUB_REF_NAME
+      run: helm upgrade --install alexcv alexcv/alexcv --set=image.tag=$GITHUB_REF_NAME
