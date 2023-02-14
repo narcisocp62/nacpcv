@@ -27,7 +27,7 @@ jobs:
       env:
         GITHUB_REF_NAME: $GITHUB_REF_NAME
       run: docker push alexdevsysop/alexcv:$GITHUB_REF_NAME
-    - name: Configure Kubernetes Context
+    - name: Configure Kubernetes Access
       env:
         KUBECONF: ${{secrets.KUBECONF}}
       run: mkdir ~/.kube; echo "$KUBECONF" > ~/.kube/config; kubectl get nodes
